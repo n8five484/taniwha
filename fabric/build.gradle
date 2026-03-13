@@ -83,7 +83,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = "https://maven.pkg.github.com/lemonszz/taniwha"
+            url = "https://maven.pkg.github.com/n8five484/taniwha"
             credentials {
                 username = System.getenv("GITHUB_ACTOR")
                 password = System.getenv("GITHUB_TOKEN")
